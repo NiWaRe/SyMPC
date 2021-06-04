@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622789063455,
+  "lastUpdate": 1622790733414,
   "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -372,6 +372,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.16120277248356343",
             "extra": "mean: 8.643648366399997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "distinct": true,
+          "id": "d32627319f76ea344f08c024a94d356cfc88918d",
+          "message": "The right way to manage sessions",
+          "timestamp": "2021-06-04T12:34:55+05:30",
+          "tree_id": "f603ad5d8b2526109069ae29cc452feccb896312",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/d32627319f76ea344f08c024a94d356cfc88918d"
+        },
+        "date": 1622790732721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.1285463457618738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.035732204812051374",
+            "extra": "mean: 7.779295429000013 sec\nrounds: 5"
           }
         ]
       }
