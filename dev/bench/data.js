@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622790733414,
+  "lastUpdate": 1622791436984,
   "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -403,6 +403,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.035732204812051374",
             "extra": "mean: 7.779295429000013 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "distinct": true,
+          "id": "bca09d39403ce26f1aad4c46470c38c499125264",
+          "message": "Add expected shape for shares of pairwise",
+          "timestamp": "2021-06-04T12:50:08+05:30",
+          "tree_id": "45d34e47705b13b47959bdfd79953495bc904199",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/bca09d39403ce26f1aad4c46470c38c499125264"
+        },
+        "date": 1622791436453,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.10639313362656586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.058337245943650494",
+            "extra": "mean: 9.399102798399998 sec\nrounds: 5"
           }
         ]
       }
