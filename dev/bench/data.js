@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622791436984,
+  "lastUpdate": 1622795320488,
   "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -434,6 +434,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.058337245943650494",
             "extra": "mean: 9.399102798399998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "distinct": true,
+          "id": "0188856f4b3cbf96fa3bc1a2b34cb2d33e0e3e71",
+          "message": "Fix expected shape",
+          "timestamp": "2021-06-04T13:54:59+05:30",
+          "tree_id": "44505320fefca3ff6ce5c20c0f8e6a4ab1f14e09",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/0188856f4b3cbf96fa3bc1a2b34cb2d33e0e3e71"
+        },
+        "date": 1622795319512,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.1076657147099888,
+            "unit": "iter/sec",
+            "range": "stddev: 0.053151586131517714",
+            "extra": "mean: 9.2880078184 sec\nrounds: 5"
           }
         ]
       }
