@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620941327825,
-  "repoUrl": "https://github.com/OpenMined/SyMPC",
+  "lastUpdate": 1622789063455,
+  "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
       {
@@ -341,6 +341,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.210549758410243",
             "extra": "mean: 3.865120676999999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "committer": {
+            "email": "spsharan2000@gmail.com",
+            "name": "Syzygianinfern0",
+            "username": "Syzygianinfern0"
+          },
+          "distinct": true,
+          "id": "72fbeb171b22ceb61cebcaea3523b32bba7a3086",
+          "message": "Fix cyclic import for typing hinting\nhttps://stackoverflow.com/a/39757388/8878627",
+          "timestamp": "2021-06-04T12:10:28+05:30",
+          "tree_id": "a0c3850f558f643c479edfe546ef6b754ed50649",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/72fbeb171b22ceb61cebcaea3523b32bba7a3086"
+        },
+        "date": 1622789062896,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.11569188814844061,
+            "unit": "iter/sec",
+            "range": "stddev: 0.16120277248356343",
+            "extra": "mean: 8.643648366399997 sec\nrounds: 5"
           }
         ]
       }
