@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622845556211,
+  "lastUpdate": 1622846044791,
   "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -496,6 +496,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05529312369842809",
             "extra": "mean: 8.075221753400012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "committer": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "distinct": true,
+          "id": "3c003315145ae06e3d63157bb86e280be1c4c102",
+          "message": "Fix tests",
+          "timestamp": "2021-06-04T23:30:22+01:00",
+          "tree_id": "e6d1a6369b6d57f5bebdb8433011e050ceb8644b",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/3c003315145ae06e3d63157bb86e280be1c4c102"
+        },
+        "date": 1622846044185,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.1023210245404186,
+            "unit": "iter/sec",
+            "range": "stddev: 0.12790665831727838",
+            "extra": "mean: 9.773162500000012 sec\nrounds: 5"
           }
         ]
       }
