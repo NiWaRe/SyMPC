@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622878456625,
+  "lastUpdate": 1622887544255,
   "repoUrl": "https://github.com/NiWaRe/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -558,6 +558,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.1793618270556517",
             "extra": "mean: 9.005540965600005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "committer": {
+            "email": "murarugeorgec@gmail.com",
+            "name": "George Muraru",
+            "username": "gmuraru"
+          },
+          "distinct": true,
+          "id": "20c8b53328ba9bfd96f5cfd0febff9c911215103",
+          "message": "Remove methods that are not called on a remote tensor from api",
+          "timestamp": "2021-06-05T11:02:11+01:00",
+          "tree_id": "de9b9a6d7772bd1f7c0b37634489e3513c2068a5",
+          "url": "https://github.com/NiWaRe/SyMPC/commit/20c8b53328ba9bfd96f5cfd0febff9c911215103"
+        },
+        "date": 1622887543703,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 0.11051164139996499,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0400825477164109",
+            "extra": "mean: 9.048820444 sec\nrounds: 5"
           }
         ]
       }
